@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "210133962478",
+    "firebase_url": "https://sunamiapp.firebaseio.com",
+    "project_id": "sunamiapp",
+    "storage_bucket": "sunamiapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:210133962478:android:b52f407771e129a2",
+        "android_client_info": {
+          "package_name": "com.example.hacker_pc.sunami2mobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "210133962478-linvsc0h4aljh0fs7b1d8i0sroefj693.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hacker_pc.sunami2mobile",
+            "certificate_hash": "8276e1ec84ead980bf9b99a3463dc2a068c40dc0"
+          }
+        },
+        {
+          "client_id": "210133962478-ajv9aqs82bkvrio3uj272h4te50iv33o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBxs8XDf2saYgyQazocY3Fyo7KiKL8LIYY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "210133962478-ajv9aqs82bkvrio3uj272h4te50iv33o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

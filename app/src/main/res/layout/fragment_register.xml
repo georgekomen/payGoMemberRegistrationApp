@@ -1,0 +1,182 @@
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:background="@color/brown"
+    p1:minHeight="25px"
+    p1:minWidth="25px">
+
+    <LinearLayout
+        p1:id="@+id/linearLayout1"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:minHeight="25px"
+        p1:minWidth="25px"
+        p1:orientation="vertical">
+
+        <TextView
+            p1:id="@+id/textView1"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="CUSTOMER ID"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/customer_id"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="number"
+            p1:maxLength="20" />
+
+        <TextView
+            p1:id="@+id/textView2"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="NAME"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/name"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="text"
+            p1:maxLength="20" />
+
+        <TextView
+            p1:id="@+id/textView3"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="PHONE NUMBER"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/number"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="phone" />
+
+        <TextView
+            p1:id="@+id/textView4"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="PHONE NUMBER 2"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/number2"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="phone" />
+
+        <TextView
+            p1:id="@+id/textView5"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="PHONE NUMBER 3"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/number3"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="phone" />
+
+        <TextView
+            p1:id="@+id/textView6"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="BOX ADDRESS"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/po_box"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content" />
+
+        <TextView
+            p1:id="@+id/textView7"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="OCCUPATION"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/occupation"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="text" />
+
+        <TextView
+            p1:id="@+id/textView8"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="WITNESS"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/witness"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="text" />
+
+        <TextView
+            p1:id="@+id/textView9"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="WITNESS ID"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/witness_id"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="number" />
+
+        <TextView
+            p1:id="@+id/textView10"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="VILLAGE"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/village"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="text" />
+
+        <TextView
+            p1:id="@+id/textView11"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="CITY"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/city"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="text" />
+
+        <TextView
+            p1:id="@+id/textView12"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:text="DESCRIPTION"
+            p1:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <EditText
+            p1:id="@+id/description"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:inputType="text" />
+
+        <Button
+            p1:id="@+id/btn_save"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:background="@color/button"
+            p1:text="SAVE"
+            p1:textColor="@android:color/white"
+            p1:textSize="@dimen/abc_action_bar_content_inset_material" />
+    </LinearLayout>
+</ScrollView>

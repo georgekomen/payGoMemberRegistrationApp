@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:p1="http://schemas.android.com/apk/res/android"
+    p1:id="@+id/scrollView1"
+    p1:layout_width="match_parent"
+    p1:layout_height="match_parent"
+    p1:background="@color/brown"
+    p1:minHeight="25px"
+    p1:minWidth="25px">
+
+    <LinearLayout
+        p1:id="@+id/linearLayout1"
+        p1:layout_width="match_parent"
+        p1:layout_height="match_parent"
+        p1:minHeight="25px"
+        p1:minWidth="25px"
+        p1:orientation="vertical">
+
+        <GridLayout
+            p1:id="@+id/gridLayout2"
+            p1:layout_width="match_parent"
+            p1:layout_height="65dp"
+            p1:minHeight="25px"
+            p1:minWidth="25px">
+
+            <AutoCompleteTextView
+                p1:id="@+id/client_autocomplete"
+                p1:layout_width="match_parent"
+                p1:layout_height="match_parent" />
+        </GridLayout>
+
+        <Button
+            p1:id="@+id/btn_directions"
+            p1:layout_width="match_parent"
+            p1:layout_height="wrap_content"
+            p1:background="@color/button"
+            p1:text="Get Directions"
+            p1:textColor="@color/white"
+            p1:textSize="@dimen/abc_action_bar_content_inset_material" />
+    </LinearLayout>
+</ScrollView>

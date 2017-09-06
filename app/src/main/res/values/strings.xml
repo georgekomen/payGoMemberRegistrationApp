@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Sunami2Mobile</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_sign_in">signIn</string>
+    <string name="strBottomLine">From android material design</string>
+    <string name="Hello">Hello World, Click Me!</string>
+    <string name="ApplicationName">sunami</string>
+    <string name="open_drawer">Open drawer</string>
+    <string name="close_drawer">Close drawer</string>
+    <string name="title_activity_notification_receiver">NotificationReceiverActivity</string>
+</resources>

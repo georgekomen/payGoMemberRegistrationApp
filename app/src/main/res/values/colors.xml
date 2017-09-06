@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="brown">#b27f49</color>
+    <color name="white">#ffffff</color>
+    <color name="button">#000000</color>
+    <color name="black">#000000</color>
+    <color name="primary">#0000ff</color>
+    <color name="primary_pressed">#000043</color>
+    <color name="ripple">#0043</color>
+</resources>

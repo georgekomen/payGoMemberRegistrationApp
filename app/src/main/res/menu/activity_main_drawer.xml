@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/register"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="REGISTER" />
+        <item
+            android:id="@+id/directions"
+            android:icon="@android:drawable/ic_dialog_map"
+            android:title="DIRECTIONS" />
+        <item
+            android:id="@+id/Issues"
+            android:icon="@drawable/ic_question_answer_black_24dp"
+            android:title="ISSUES" />
+        <item
+            android:id="@+id/Payments"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="PAYMENTS" />
+        <item
+            android:id="@+id/expenses"
+            android:icon="@drawable/ic_supervisor_account_black_24dp"
+            android:title="EXPENSES" />
+        <item
+            android:id="@+id/CLOCK_IN"
+            android:icon="@drawable/ic_devices_black_24dp"
+            android:title="CLOCK IN" />
+        <item
+            android:id="@+id/creditManagement"
+            android:icon="@drawable/ic_devices_black_24dp"
+            android:title="Management Communication" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/signin1"
+                android:icon="@drawable/ic_menu_share"
+                android:title="sign In" />
+            <item
+                android:id="@+id/signout1"
+                android:icon="@drawable/ic_menu_send"
+                android:title="sign Out" />
+        </menu>
+    </item>
+
+</menu>
