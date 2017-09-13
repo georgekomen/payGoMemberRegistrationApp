@@ -40,7 +40,7 @@ public class mpesaListener extends BroadcastReceiver {
                 jo.put("imei", imei);
                 jo.put("msg", msg);
                 ja.put(jo);
-                //mpesaSync.mpesaSync(ja);
+                mpesaSync.mpesaSync(ja);
             } catch (JSONException e) {
                 e.printStackTrace();
             }

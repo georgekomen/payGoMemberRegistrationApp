@@ -58,7 +58,7 @@ public final class mpesaService extends Service {
                             jo.put("imei", imei);
                             jo.put("msg", msg);
                             ja.put(jo);
-                            //mpesaSync.mpesaSync(ja);
+                            mpesaSync.mpesaSync(ja);
                             cursor.moveToNext();
                         } catch (JSONException e) {
 
