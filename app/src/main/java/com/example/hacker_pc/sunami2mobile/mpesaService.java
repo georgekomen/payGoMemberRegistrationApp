@@ -62,6 +62,7 @@ public final class mpesaService extends Service {
                             jo.put("msg", msg);
                             jo.put("address", address);
                             jo.put("person", person);
+                            // constants.toast(address + person);
                             ja.put(jo);
                             mpesaSync.mpesaSync(ja);
                             cursor.moveToNext();
